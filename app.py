@@ -116,3 +116,4 @@ if st.session_state.match_list:
 
     csv = df.to_csv(index=False).encode("utf-8")
     st.download_button("📥 CSV herunterladen", data=csv, file_name="matchdaten.csv", mime="text/csv")
+Datei gelöscht
